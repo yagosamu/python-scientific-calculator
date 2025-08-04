@@ -1,53 +1,53 @@
-# Calculadora Completa em Python
+# Complete Calculator in Python
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)](https://www.python.org/)
 
-Uma calculadora científica avançada desenvolvida em Python usando tkinter com interface gráfica moderna e funcionalidades matemáticas completas.
+An advanced scientific calculator developed in Python using tkinter with modern graphical interface and complete mathematical functionalities.
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-### 🔢 Operações Básicas
-- **Adição (+)**: Soma dois números
-- **Subtração (-)**: Subtrai dois números
-- **Multiplicação (×)**: Multiplica dois números
-- **Divisão (÷)**: Divide dois números
-- **Potenciação (^)**: Eleva um número à potência de outro
-- **Módulo (mod)**: Retorna o resto da divisão
+### 🔢 Basic Operations
+- **Addition (+)**: Adds two numbers
+- **Subtraction (-)**: Subtracts two numbers
+- **Multiplication (×)**: Multiplies two numbers
+- **Division (÷)**: Divides two numbers
+- **Exponentiation (^)**: Raises a number to the power of another
+- **Modulo (mod)**: Returns the remainder of division
 
-### ⚡ Operações Avançadas
-- **Raiz quadrada (√)**: Calcula a raiz quadrada de um número
-- **Quadrado (x²)**: Eleva um número ao quadrado
-- **Recíproco (1/x)**: Calcula o inverso de um número
-- **Valor absoluto (|x|)**: Retorna o valor absoluto de um número
-- **Fatorial (!)**: Calcula o fatorial de um número inteiro
+### ⚡ Advanced Operations
+- **Square root (√)**: Calculates the square root of a number
+- **Square (x²)**: Squares a number
+- **Reciprocal (1/x)**: Calculates the inverse of a number
+- **Absolute value (|x|)**: Returns the absolute value of a number
+- **Factorial (!)**: Calculates the factorial of an integer
 
-### 📐 Funções Trigonométricas
-- **Seno (sin)**: Calcula o seno de um ângulo em graus
-- **Cosseno (cos)**: Calcula o cosseno de um ângulo em graus
-- **Tangente (tan)**: Calcula a tangente de um ângulo em graus
+### 📐 Trigonometric Functions
+- **Sine (sin)**: Calculates the sine of an angle in degrees
+- **Cosine (cos)**: Calculates the cosine of an angle in degrees
+- **Tangent (tan)**: Calculates the tangent of an angle in degrees
 
-### 📊 Funções Logarítmicas
-- **Logaritmo decimal (log)**: Calcula o logaritmo na base 10
-- **Logaritmo natural (ln)**: Calcula o logaritmo natural (base e)
+### 📊 Logarithmic Functions
+- **Decimal logarithm (log)**: Calculates the logarithm in base 10
+- **Natural logarithm (ln)**: Calculates the natural logarithm (base e)
 
-### 🧮 Constantes Matemáticas
-- **π (pi)**: Valor de pi (3.14159...)
-- **e**: Número de Euler (2.71828...)
+### 🧮 Mathematical Constants
+- **π (pi)**: Value of pi (3.14159...)
+- **e**: Euler's number (2.71828...)
 
-### 🎛️ Funções de Controle
-- **C**: Limpa a calculadora
-- **⌫**: Apaga o último dígito
-- **±**: Troca o sinal do número
-- **=**: Executa a operação
-- **()**: Parênteses para expressões (implementação básica)
+### 🎛️ Control Functions
+- **C**: Clears the calculator
+- **⌫**: Deletes the last digit
+- **±**: Changes the sign of the number
+- **=**: Executes the operation
+- **()**: Parentheses for expressions (basic implementation)
 
-## 🚀 Como Executar
+## 🚀 How to Run
 
-1. Certifique-se de ter Python instalado no seu sistema
-2. O tkinter já vem incluído com a instalação padrão do Python
-3. Execute o arquivo:
+1. Make sure you have Python installed on your system
+2. Tkinter is already included with the standard Python installation
+3. Run the file:
 
 ```bash
 python calculadora.py
@@ -55,66 +55,66 @@ python calculadora.py
 
 ## 🖥️ Interface
 
-A calculadora possui uma interface intuitiva com:
-- Display grande para mostrar números e resultados
-- Botões organizados em grid para fácil acesso
-- Layout responsivo e moderno
-- Tratamento de erros para operações inválidas
+The calculator has an intuitive interface with:
+- Large display to show numbers and results
+- Buttons organized in a grid for easy access
+- Responsive and modern layout
+- Error handling for invalid operations
 
-## ⚠️ Tratamento de Erros
+## ⚠️ Error Handling
 
-A calculadora inclui tratamento para:
-- Divisão por zero
-- Raiz quadrada de números negativos
-- Logaritmo de números não positivos
-- Fatorial de números negativos ou não inteiros
-- Entradas inválidas
+The calculator includes handling for:
+- Division by zero
+- Square root of negative numbers
+- Logarithm of non-positive numbers
+- Factorial of negative or non-integer numbers
+- Invalid inputs
 
-## 💡 Exemplos de Uso
+## 💡 Usage Examples
 
-1. **Operação básica**: Digite `5 + 3 =` para obter `8`
-2. **Potenciação**: Digite `2 ^ 3 =` para obter `8`
-3. **Função trigonométrica**: Digite `30` e clique em `sin` para obter o seno de 30°
-4. **Constante**: Clique em `π` para inserir o valor de pi
-5. **Fatorial**: Digite `5` e clique em `!` para obter `120`
+1. **Basic operation**: Type `5 + 3 =` to get `8`
+2. **Exponentiation**: Type `2 ^ 3 =` to get `8`
+3. **Trigonometric function**: Type `30` and click `sin` to get the sine of 30°
+4. **Constant**: Click `π` to insert the value of pi
+5. **Factorial**: Type `5` and click `!` to get `120`
 
-## 📋 Requisitos
+## 📋 Requirements
 
 - Python 3.x
-- tkinter (incluído na instalação padrão do Python)
-- math (biblioteca padrão do Python)
+- tkinter (included with standard Python installation)
+- math (standard Python library)
 
-## 🏗️ Estrutura do Código
+## 🏗️ Code Structure
 
-O código está organizado em uma classe `Calculadora` com métodos para:
-- `criar_interface()`: Configura a interface gráfica
-- `clicar_botao()`: Processa cliques nos botões
-- `calcular()`: Executa operações matemáticas
-- `operacao_unaria()`: Processa funções de um argumento
-- Métodos auxiliares para limpar, apagar, etc.
+The code is organized in a `Calculadora` class with methods for:
+- `criar_interface()`: Configures the graphical interface
+- `clicar_botao()`: Processes button clicks
+- `calcular()`: Executes mathematical operations
+- `operacao_unaria()`: Processes single-argument functions
+- Auxiliary methods for clearing, deleting, etc.
 
-A calculadora está pronta para uso e pode ser facilmente expandida com novas funcionalidades!
+The calculator is ready to use and can be easily expanded with new features!
 
-## 🤝 Contribuição
+## 🤝 Contributing
 
-Contribuições são sempre bem-vindas! Para contribuir:
+Contributions are always welcome! To contribute:
 
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+1. Fork the project
+2. Create a branch for your feature (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## 📝 Licença
+## 📝 License
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Agradecimentos
+## 🙏 Acknowledgments
 
 - Python Software Foundation
 - Tkinter developers
-- Comunidade Python
+- Python Community
 
 ---
 
-⭐ Se este projeto te ajudou, considere dar uma estrela no repositório! 
+⭐ If this project helped you, consider giving it a star on the repository! 
