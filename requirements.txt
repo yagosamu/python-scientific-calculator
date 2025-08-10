@@ -1,10 +1,7 @@
-# Dependências do projeto Calculadora Python
-# Todas as bibliotecas são padrão do Python, não requerem instalação adicional
+# tkinter 
+# math 
 
-# tkinter - Interface gráfica (incluído no Python)
-# math - Funções matemáticas (incluído no Python)
-
-# Para desenvolvimento (opcional):
-# pytest>=7.0.0  # Para testes unitários
-# black>=22.0.0   # Para formatação de código
-# flake8>=5.0.0   # Para linting 
+# For devs:
+# pytest>=7.0.0  
+# black>=22.0.0   
+# flake8>=5.0.0  
