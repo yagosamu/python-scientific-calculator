@@ -94,27 +94,3 @@ The code is organized in a `Calculadora` class with methods for:
 - Auxiliary methods for clearing, deleting, etc.
 
 The calculator is ready to use and can be easily expanded with new features!
-
-## 🤝 Contributing
-
-Contributions are always welcome! To contribute:
-
-1. Fork the project
-2. Create a branch for your feature (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Python Software Foundation
-- Tkinter developers
-- Python Community
-
----
-
-⭐ If this project helped you, consider giving it a star on the repository! 
