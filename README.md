@@ -1,4 +1,4 @@
-# Complete Calculator in Python
+# Scientific Calculator in Python
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
